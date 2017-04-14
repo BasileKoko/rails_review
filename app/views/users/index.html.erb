@@ -1,0 +1,11 @@
+
+<div align='center'>
+  <h1>All Users Listed here </h1>
+<% @users.each do |user|%>
+  <li>
+  <%= user.username%> <br>
+  <%= user.email%>
+</li>
+<% end %>
+</div>
+</ul>
